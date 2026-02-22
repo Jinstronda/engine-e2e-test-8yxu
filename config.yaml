@@ -1,0 +1,11 @@
+systems:
+- id: test-sys
+  name: Test System
+  topology: single
+endpoints:
+- slug: test-ep
+  description: test endpoint
+  contract:
+  - name: input
+    type: string
+  system_id: test-sys
